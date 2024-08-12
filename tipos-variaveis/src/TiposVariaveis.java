@@ -3,5 +3,6 @@ public class TiposVariaveis {
         short NumeroCurto = 1;
         int NumeroNormal = NumeroCurto;
         short NumeroCurto2 = (short) NumeroNormal;
+        System.out.println(NumeroCurto2);
     }
 }
