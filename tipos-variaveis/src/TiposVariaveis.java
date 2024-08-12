@@ -1,5 +1,7 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        short NumeroCurto = 1;
+        int NumeroNormal = NumeroCurto;
+        short NumeroCurto2 = (short) NumeroNormal;
     }
 }
